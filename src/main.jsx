@@ -2,6 +2,8 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
+import "@fontsource/poppins"; // in index.js or main.jsx
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

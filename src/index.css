@@ -1,16 +1,15 @@
+/* src/index.css */
 @import "tailwindcss";
 
+/* Tell Tailwind what `font-poppins` means */
+@theme {
+  --font-poppins: "Poppins", sans-serif;
+}
 
 body {
   @apply font-poppins text-gray-800;
 }
 
-/* Headings: Regular (400 or 600) */
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 400; /* regular or use 600 if you want bolder */
-}
-
-/* Paragraphs: ExtraLight (200) */
-p {
-  font-weight: 200;
-}
+/* Your weights */
+h1, h2, h3, h4, h5, h6 { font-weight: 400; }
+p { font-weight: 200; }
