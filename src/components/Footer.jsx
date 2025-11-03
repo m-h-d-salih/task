@@ -13,7 +13,7 @@ const Footer = ({ setCurrentPage }) => (
           <img
           src="/img/Thaavu PNG 1 (1).png"
             alt="Thaavu.Co"
-          className="h-17 w-[35vh] object-cover"
+          className="h-17 w-[35vh] -ml-3 sm:-ml-3 object-cover"
           />
         </button>
         <div className="mb-4 mt-6">
