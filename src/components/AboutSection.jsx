@@ -1,9 +1,9 @@
 import React from "react";
 
 const AboutSection = () => (
-  <section className="py-16 bg-white">
+  <section className="sm:py-10 py-5 bg-white">
     <div className="max-w-7xl mx-auto px-6">
-      <h2 className="text-5xl font-poppins font-normal mb-8 text-[#164622]">
+      <h2 className="sm:text-5xl text-4xl font-poppins font-normal mb-8 text-[#164622]">
         Who We Are<span className="text-[#F6911E]"> ?</span>
       </h2>
       <div className="text-[#164622] font-poppins font-extralight text-lg leading-relaxed space-y-4">

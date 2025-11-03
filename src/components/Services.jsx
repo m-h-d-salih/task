@@ -28,9 +28,9 @@ const ServicesSection = () => {
     }
   ];
   return (
-    <section className="py-16 bg-white">
+    <section className="py-1 sm:py-5 bg-white">
       <div className="max-w-7xl mx-auto px-6">
-        <h2 className="text-5xl   mb-12 font-poppins font-normal  text-[#164622]">
+        <h2 className="text-4xl sm:text-5xl   mb-12 font-poppins font-normal  text-[#164622]">
           Our <span className="text-[#F6911E]">Services</span>
         </h2>
         <div className="space-y-6">

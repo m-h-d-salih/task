@@ -7,7 +7,7 @@ const Header = () => {
 
   return (
     <header className="top-0 left-0 w-full z-50 bg-transparent">
-      <div className="max-w-7xl mx-auto py-3 sm:py-4 px-4 sm:px-6 flex items-center justify-between">
+      <div className="max-w-[1340px] mx-auto py-3 sm:py-4 px-4 sm:px-6 flex items-center justify-between">
         {/* Logo */}
         <Link
           to="/"
@@ -17,7 +17,7 @@ const Header = () => {
           <img
             src="/img/991168e39ac3c9b9b1b67f355b84c827f7287cf7.png"
             alt="Thaavu.Co"
-            className="sm:h-17 h-10  w-[22vh] sm:w-[35vh] object-cover" // ✅ unchanged logo size
+            className="sm:h-17 h-10   -ml-4 sm:ml-0 w-[22vh] sm:w-[35vh] object-cover" // ✅ unchanged logo size
           />
         </Link>
 
@@ -35,7 +35,7 @@ const Header = () => {
         </nav>
 
           <div className=" sm:hidden block">
-              <button className="w-full bg-[#164622] text-white px-6 py-2 rounded-md">
+              <button className="w-full bg-[#164622] whitespace-nowrap text-white px-6 py-2 rounded-md">
                 Let's Connect
               </button>
             </div>

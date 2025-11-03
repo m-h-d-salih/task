@@ -2,7 +2,7 @@ import { Facebook, Instagram, Linkedin } from "lucide-react";
 import React from "react";
 
 const Footer = ({ setCurrentPage }) => (
-  <footer className="bg-[#2d4a2d] text-white py-12">
+  <footer className="bg-[#164622] text-white py-12">
     <div className="max-w-7xl mx-auto px-6">
       <div className="mb-8">
         <button
@@ -11,7 +11,7 @@ const Footer = ({ setCurrentPage }) => (
           aria-label="Thaavu.Co Home"
         >
           <img
-          src="/img/Thaavu PNG 1.png"
+          src="/img/Thaavu PNG 1 (1).png"
             alt="Thaavu.Co"
           className="h-17 w-[35vh] object-cover"
           />

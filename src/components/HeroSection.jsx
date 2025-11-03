@@ -14,19 +14,25 @@ const HeroSection = () => {
       >
         <source src="/thaavubannervideo.mp4" type="video/mp4" />
       </video>
+<div className="relative max-w-7xl mx-auto flex flex-col justify-center h-full px-4 sm:px-6 lg:px-8 text-white text-left z-10">
+  {/* Heading 1 */}
+  <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-poppins !font-extralight leading-tight sm:max-w-5xl">
+    Building Brands Through
+  </h1>
 
- 
-      {/* Hero Content */}
-      <div className="relative max-w-7xl mx-auto z-10 flex flex-col justify-center h-full px-4 sm:px-6 lg:px-8 text-white text-left md:text-left">
-        <h1 className="text-3xl sm:text-4xl font-poppins font-normal  md:text-6xl lg:text-7xl  leading-tight max-w-3xl mx-auto md:mx-0">
-          Building Brands Through{" "}
-          <span className="font-bold">Smart Design & Digital Innovation</span>
-        </h1>
-        <p className="mt-4 font-poppins font-extralight sm:mt-6 text-base sm:text-lg max-w-xl text-gray-200 mx-auto md:mx-0">
-          Transforming ideas into impactful digital experiences that drive
-          growth and inspire trust.
-        </p>
-      </div>
+  {/* Heading 2 */}
+  <h1 className="mt-2 text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-poppins font-bold leading-tight sm:max-w-5xl">
+    Smart Design & Digital Innovation
+  </h1>
+
+  {/* Paragraph */}
+  <p className="mt-4 text-sm sm:text-base md:text-lg lg:text-xl font-poppins font-extralight text-gray-200 leading-relaxed sm:max-w-4xl">
+    Transforming ideas into impactful digital experiences that
+    <br className="hidden sm:inline" />
+    drive growth and inspire trust.
+  </p>
+</div>
+
     </section>
   );
 };
