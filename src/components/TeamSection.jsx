@@ -16,7 +16,7 @@ const TeamSection = () => {
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-8">
         {/* MEMBER 1 */}
         <div className="text-center group cursor-pointer">
-  <div className="overflow-hidden bg-gray-100 h-48 sm:h-56 md:h-64 lg:h-72">
+          <div className="aspect-square overflow-hidden bg-gray-100">
             <img
               src="/img/fdb40b1681bd6fe6b645dfe3e0397de370beddee.jpg"
               alt="Adilshan"

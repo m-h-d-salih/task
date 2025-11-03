@@ -93,7 +93,7 @@ const CoreValuesSection = () => {
         <div className="bg-[#164622] text-white rounded-3xl  relative overflow-hidden">
           <div className="absolute flex-shrink-0">
             <img
-              src="public\img\“.png"
+              src="/img/“.png"
               alt="Dog with binoculars"
               className="relative z-10 w-20 h-50 flex -mt-14 sm:mt-0 sm:w-54 sm:h-[150px] object-contain"
             />
@@ -120,7 +120,7 @@ const CoreValuesSection = () => {
 
             <div className="sm:relative absolute flex-shrink-0">
               <img
-                src="public/img/41dfe4c90bf8a09e5e2ea1f61ea82aba403c4ef3.png"
+                src="/img/41dfe4c90bf8a09e5e2ea1f61ea82aba403c4ef3.png"
                 alt="Dog with binoculars"
                 className="relative sm:z-10 z-5 w-48 mt-10 sm:mt-0 sm:w-56 ml-40 sm:ml-0 md:w-64 h-auto object-contain"
               />
